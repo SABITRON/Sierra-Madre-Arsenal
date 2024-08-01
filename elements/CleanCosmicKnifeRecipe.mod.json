@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.SPONGE#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.SAND"
+      },
+      {
+        "value": "CUSTOM:CosmicKnife"
+      },
+      {
+        "value": "Blocks.SAND"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CleanCosmicKnife"
+    },
+    "name": "clean_cosmic_knife_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "dead_money:saturnite_nugget"
+    },
+    {
+      "item": "dead_money:saturnite_nugget"
+    },
+    {
+      "item": "dead_money:saturnite_nugget"
+    },
+    {
+      "item": "dead_money:saturnite_nugget"
+    },
+    {
+      "item": "dead_money:saturnite_nugget"
+    },
+    {
+      "item": "dead_money:saturnite_nugget"
+    },
+    {
+      "item": "dead_money:saturnite_nugget"
+    },
+    {
+      "item": "dead_money:saturnite_nugget"
+    },
+    {
+      "item": "dead_money:saturnite_nugget"
+    }
+  ],
+  "result": {
+    "item": "dead_money:saturnite_ingot",
+    "count": 1
+  }
+}

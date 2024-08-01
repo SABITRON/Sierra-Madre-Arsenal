@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dead_money:item/polished_cosmic_knife"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 1000,
+  "ingredient": {
+    "item": "dead_money:saturnite_dust"
+  },
+  "result": "dead_money:saturnite_ingot"
+}

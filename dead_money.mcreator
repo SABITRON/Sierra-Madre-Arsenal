@@ -1,0 +1,430 @@
+{
+  "mod_elements": [
+    {
+      "name": "SaturniteIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturnite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/deadmoney/item/SaturniteIngotItem.java",
+          "src/main/resources/assets/dead_money/models/item/saturnite_ingot.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SaturniteBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturnite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/deadmoney/block/SaturniteBlockBlock.java",
+          "src/main/resources/assets/dead_money/models/block/saturnite_block.json",
+          "src/main/resources/assets/dead_money/models/item/saturnite_block.json",
+          "src/main/resources/assets/dead_money/blockstates/saturnite_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SaturniteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturnite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/saturnite_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SaturniteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturnite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/saturnite_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SaturniteOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturnite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/saturnite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SaturniteDust",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturnite_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dead_money/models/item/saturnite_dust.json",
+          "src/main/java/net/sabitron/deadmoney/item/SaturniteDustItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SaturniteNugget",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturnite_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/deadmoney/item/SaturniteNuggetItem.java",
+          "src/main/resources/assets/dead_money/models/item/saturnite_nugget.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CosmicKnife",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dead_money/models/item/cosmic_knife.json",
+          "src/main/java/net/sabitron/deadmoney/item/CosmicKnifeItem.java"
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "CleanCosmicKnife",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clean_cosmic_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dead_money/models/item/clean_cosmic_knife.json",
+          "src/main/java/net/sabitron/deadmoney/item/CleanCosmicKnifeItem.java"
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "CosmicKnives",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_knives",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/tags/items/cosmic_knives.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SaturniteNuggetRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturnite_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/saturnite_nugget_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SaturniteIngotFromNuggets",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturnite_ingot_from_nuggets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/saturnite_ingot_from_nuggets.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HotCosmicKnife",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_cosmic_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/deadmoney/item/HotCosmicKnifeItem.java",
+          "src/main/resources/assets/dead_money/models/item/hot_cosmic_knife.json"
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "LightEmUp",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_em_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/deadmoney/procedures/LightEmUpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "LightMeUp",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_me_up",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/light_me_up.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CosmicKnifeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/cosmic_knife_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CleanCosmicKnifeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clean_cosmic_knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/clean_cosmic_knife_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "KnifeSpears",
+      "type": "tag",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_spears",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/tags/items/knife_spears.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SaturniteWeapons",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturnite_weapons",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/tags/items/saturnite_weapons.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SaturniteBlend",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturnite_blend",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/saturnite_blend.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "KnifeSpear",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "knife_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/deadmoney/item/KnifeSpearItem.java",
+          "src/main/resources/assets/dead_money/models/item/knife_spear.json"
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "CleanKnifeSpear",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "clean_knife_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/deadmoney/item/CleanKnifeSpearItem.java",
+          "src/main/resources/assets/dead_money/models/item/clean_knife_spear.json"
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "KnifeSpearRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/knife_spear_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CleanKnifeSpearRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clean_knife_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/clean_knife_spear_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CleanCosmicKnifeSpearAlt",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clean_cosmic_knife_spear_alt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dead_money/recipes/clean_cosmic_knife_spear_alt.json"
+        ]
+      },
+      "path": "~/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.dead_money.knife_spear": "Knife Spear",
+      "item.dead_money.saturnite_ingot": "Saturnite Ingot",
+      "block.dead_money.saturnite_block": "Block of Saturnite",
+      "item.dead_money.saturnite_dust": "Saturnite Blend",
+      "item.dead_money.cosmic_knife": "Cosmic Knife",
+      "item.dead_money.clean_knife_spear": "Polished Knife Spear",
+      "item.dead_money.hot_cosmic_knife": "Super-Heated Cosmic Knife",
+      "item.dead_money.clean_cosmic_knife": "Polished Cosmic Knife",
+      "item.dead_money.saturnite_nugget": "Saturnite Nugget"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Equipment",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "dead_money",
+    "modName": "Sierra Madre Arsenal",
+    "version": "1.0.0",
+    "author": "veneli sabata!",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.sabitron.deadmoney",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dead_money:item/saturnite_blend"
+  }
+}

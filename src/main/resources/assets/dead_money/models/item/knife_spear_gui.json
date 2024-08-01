@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "dead_money:item/knife_spear_inventory"
+  }
+}

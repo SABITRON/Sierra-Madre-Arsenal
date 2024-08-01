@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sponge"
+    },
+    "b": {
+      "tag": "minecraft:sand"
+    },
+    "c": {
+      "item": "dead_money:cosmic_knife"
+    },
+    "d": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "dead_money:clean_cosmic_knife",
+    "count": 1
+  }
+}
